@@ -7,29 +7,41 @@ body{
   height: 100%;
   width: 100%;
 }a{
-  color #777;
+  color: #777;
   text-decoration: none;
 }.padding-top{
   padding-top: 20px;
-}.login-page{
+}
+/* Realizando cambios de css para centrar el login*/
+.container{
+  position: absolute;
+  top: 40%;
+  left: 42%;
+  transform: translate(-50%, -50%);
+}
+
+.login-page{
   width: 350px;
-  margin: 7% auto;
+  margin: auto;
   padding: 0 20px;
-  background-color: #f9f9f9;
-  border: 1px solid #f2f2f2;
+  background-color: hsl(0, 0%, 100%);
+  border: 1px solid hsl(0, 7%, 76%);
 }.login-page .text-center{
   margin-bottom: 10px;
-}.box{
+  position: center;
+}/* Hasta Aqui*/
+.box{
   padding: 20px;
   background-color: #f9f9f9;
   border: 1px solid #f2f2f2;
 }.page{
-  position: relative;
-  display: block;
-  top: 50px;
-  left: 0;
-  padding: 35px 15px 20px 270px;
-}
+    position: relative;
+    display: block;
+    top: 50px;
+    left: 0;
+    padding: 35px 15px 20px 270px;
+  }
+
 
 .bg-green{
   background-color: #A3C86D;
