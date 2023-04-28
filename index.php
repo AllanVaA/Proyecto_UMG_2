@@ -2,11 +2,7 @@
   ob_start();
   require_once('includes/load.php');
   if($session->isUserLoggedIn(true)) { redirect('home.php', false);}
-<<<<<<< HEAD
 ?> 
-=======
-?>
->>>>>>> 0a89c24ce190a7d8fb22d31cbda0500967ad0946
 
 <div class="container">
 <?php include_once('layouts/header.php'); ?>
@@ -20,12 +16,12 @@
         <div class="form-group">
           <!--Componer la parte de la correcion de palabras y se agregaron iconos-->
           
-              <label for="username" class="control-label"><i class="fa-solid fa-user"></i>  Usuario</label>
+              <label for="username" class="control-label"><i class="fa-solid fa-user"></i>   Usuario</label>
               <input type="name" class="form-control" name="username" placeholder="Usuario">
         </div>
         <div class="form-group">
         
-            <label for="Password" class="control-label"><i class="fa-solid fa-lock"></i>  Contraseña</label>
+            <label for="Password" class="control-label"><i class="fa-solid fa-lock"></i>   Contraseña</label>
             <input type="password" name= "password" class="form-control" placeholder="Contraseña">
         </div>
         <!-- se centro el boton en el login page -->
