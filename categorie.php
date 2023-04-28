@@ -35,7 +35,7 @@
      </div>
   </div>
    <div class="row">
-    <div class="col-md-5">
+    <div class="col-md-5 container-mobile">
       <div class="panel panel-default">
         <div class="panel-heading">
           <strong>
@@ -43,7 +43,7 @@
             <span>Agregar categoría</span>
          </strong>
         </div>
-        <div class="panel-body">
+        <div class="panel-body table-container">
           <form method="post" action="categorie.php">
             <div class="form-group">
                 <input type="text" class="form-control" name="categorie-name" placeholder="Nombre de la categoría" required>
@@ -53,7 +53,7 @@
         </div>
       </div>
     </div>
-    <div class="col-md-7">
+    <div class="col-md-7 container-mobile">
     <div class="panel panel-default">
       <div class="panel-heading">
         <strong>
@@ -61,7 +61,7 @@
           <span>Lista de categorías</span>
        </strong>
       </div>
-        <div class="panel-body">
+        <div class="panel-body table-container">
           <table class="table table-bordered table-striped table-hover">
             <thead>
                 <tr>

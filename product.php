@@ -10,14 +10,14 @@
      <div class="col-md-12">
        <?php echo display_msg($msg); ?>
      </div>
-    <div class="col-md-12">
+    <div class="col-md-12 container-mobile">
       <div class="panel panel-default">
         <div class="panel-heading clearfix">
          <div class="pull-right">
-           <a href="add_product.php" class="btn btn-primary">Agragar producto</a>
+           <a href="add_product.php" class="btn btn-primary">Agregar producto</a>
          </div>
         </div>
-        <div class="panel-body">
+        <div class="panel-body table-container">
           <table class="table table-bordered">
             <thead>
               <tr>

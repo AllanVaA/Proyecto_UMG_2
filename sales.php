@@ -14,7 +14,7 @@ $sales = find_all_sale();
   </div>
 </div>
   <div class="row">
-    <div class="col-md-12">
+    <div class="col-md-12 container-mobile">
       <div class="panel panel-default">
         <div class="panel-heading clearfix">
           <strong>
@@ -25,7 +25,7 @@ $sales = find_all_sale();
             <a href="add_sale.php" class="btn btn-primary">Agregar venta</a>
           </div>
         </div>
-        <div class="panel-body">
+        <div class="panel-body table-container">
           <table class="table table-bordered table-striped">
             <thead>
               <tr>

@@ -17,7 +17,7 @@
   </div>
 </div>
   <div class="row">
-    <div class="col-md-12">
+    <div class="col-md-12 container-mobile">
       <div class="panel panel-default">
         <div class="panel-heading clearfix">
           <strong>
@@ -25,7 +25,7 @@
             <span>Venta diaria</span>
           </strong>
         </div>
-        <div class="panel-body">
+        <div class="panel-body table-container">
           <table class="table table-bordered table-striped">
             <thead>
               <tr>
