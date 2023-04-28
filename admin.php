@@ -68,7 +68,7 @@
 </div>
 
   <div class="row">
-   <div class="col-md-4">
+   <div class="col-md-12">
      <div class="panel panel-default">
        <div class="panel-heading">
          <strong>
@@ -98,7 +98,7 @@
        </div>
      </div>
    </div>
-   <div class="col-md-4">
+   <div class="col-md-12">
       <div class="panel panel-default">
         <div class="panel-heading">
           <strong>
@@ -135,7 +135,7 @@
     </div>
    </div>
   </div>
-  <div class="col-md-4">
+  <div class="col-md-12">
     <div class="panel panel-default">
       <div class="panel-heading">
         <strong>
