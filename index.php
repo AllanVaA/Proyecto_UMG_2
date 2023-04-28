@@ -2,7 +2,11 @@
   ob_start();
   require_once('includes/load.php');
   if($session->isUserLoggedIn(true)) { redirect('home.php', false);}
+<<<<<<< HEAD
 ?> 
+=======
+?>
+>>>>>>> 0a89c24ce190a7d8fb22d31cbda0500967ad0946
 
 <div class="container">
 <?php include_once('layouts/header.php'); ?>
