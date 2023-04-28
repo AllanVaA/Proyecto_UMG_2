@@ -4,7 +4,7 @@
   if($session->isUserLoggedIn(true)) { redirect('home.php', false);}
 ?>
 
-
+<div class="container">
 <?php include_once('layouts/header.php'); ?>
 <div class="login-page">
     <div class="text-center">
@@ -27,3 +27,4 @@
     </form>
 </div>
 <?php include_once('layouts/footer.php'); ?>
+</div>
