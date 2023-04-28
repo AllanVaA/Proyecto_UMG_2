@@ -47,7 +47,7 @@
   <div class="col-md-12">
     <?php echo display_msg($msg); ?>
   </div>
-  <div class="col-md-6">
+  <div class="col-md-6 container-mobile">
       <div class="panel panel-default">
         <div class="panel-heading">
           <div class="panel-heading clearfix">
@@ -55,7 +55,7 @@
             <span>Cambiar mi foto</span>
           </div>
         </div>
-        <div class="panel-body">
+        <div class="panel-body table-container">
           <div class="row">
             <div class="col-md-4">
                 <img class="img-circle img-size-2" src="uploads/users/<?php echo $user['image'];?>" alt="">

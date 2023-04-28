@@ -52,7 +52,7 @@ if(!$product){
 ?>
 <?php include_once('layouts/header.php'); ?>
 <div class="row">
-  <div class="col-md-12">
+  <div class="col-md-12 container-mobile">
     <?php echo display_msg($msg); ?>
   </div>
 </div>
@@ -64,7 +64,7 @@ if(!$product){
             <span>Editar producto</span>
          </strong>
         </div>
-        <div class="panel-body">
+        <div class="panel-body table-container">
          <div class="col-md-7">
            <form method="post" action="edit_product.php?id=<?php echo (int)$product['id'] ?>">
               <div class="form-group">

@@ -27,7 +27,7 @@
         </div>
 
       <div class="col-md-12 container-mobile">
-        <div class="panel panel-default">
+        <div class="panel panel-default table-container">
           <div class="panel-heading clearfix">
             <span class="glyphicon glyphicon-camera"></span>
             <span>Lista de imagenes</span>
