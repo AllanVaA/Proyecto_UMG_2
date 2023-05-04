@@ -1,0 +1,2 @@
+Jeffry Geovanny Ruano Estrada
+Centrado de login, agregamos iconos y diseño responsivo
