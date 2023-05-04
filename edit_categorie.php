@@ -38,7 +38,7 @@ if(isset($_POST['edit_cat'])){
 <?php include_once('layouts/header.php'); ?>
 
 <div class="row">
-   <div class="col-md-12">
+   <div class="col-md-12 container-mobile">
      <?php echo display_msg($msg); ?>
    </div>
    <div class="col-md-5">
@@ -49,7 +49,7 @@ if(isset($_POST['edit_cat'])){
            <span>Editando <?php echo remove_junk(ucfirst($categorie['name']));?></span>
         </strong>
        </div>
-       <div class="panel-body">
+       <div class="panel-body table-container">
          <form method="post" action="edit_categorie.php?id=<?php echo (int)$categorie['id'];?>">
            <div class="form-group">
                <input type="text" class="form-control" name="categorie-name" value="<?php echo remove_junk(ucfirst($categorie['name']));?>">

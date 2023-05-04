@@ -67,7 +67,7 @@ if(isset($_POST['update-pass'])) {
 <?php include_once('layouts/header.php'); ?>
  <div class="row">
    <div class="col-md-12"> <?php echo display_msg($msg); ?> </div>
-  <div class="col-md-6">
+  <div class="col-md-6 container-mobile">
      <div class="panel panel-default">
        <div class="panel-heading">
         <strong>
@@ -75,7 +75,7 @@ if(isset($_POST['update-pass'])) {
           Actualiza cuenta <?php echo remove_junk(ucwords($e_user['name'])); ?>
         </strong>
        </div>
-       <div class="panel-body">
+       <div class="panel-body table-container">
           <form method="post" action="edit_user.php?id=<?php echo (int)$e_user['id'];?>" class="clearfix">
             <div class="form-group">
                   <label for="name" class="control-label">Nombres</label>

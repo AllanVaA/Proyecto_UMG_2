@@ -12,7 +12,7 @@
    </div>
 </div>
 <div class="row">
-  <div class="col-md-12">
+  <div class="col-md-12 container-mobile">
     <div class="panel panel-default">
     <div class="panel-heading clearfix">
       <strong>
@@ -21,7 +21,7 @@
      </strong>
        <a href="add_group.php" class="btn btn-info pull-right btn-sm"> Agregar grupo</a>
     </div>
-     <div class="panel-body">
+     <div class="panel-body table-container">
       <table class="table table-bordered">
         <thead>
           <tr>

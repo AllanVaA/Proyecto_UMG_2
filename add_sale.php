@@ -56,7 +56,7 @@
 </div>
 <div class="row">
 
-  <div class="col-md-12">
+  <div class="col-md-12 container-mobile">
     <div class="panel panel-default">
       <div class="panel-heading clearfix">
         <strong>
@@ -64,7 +64,7 @@
           <span>Editar venta</span>
        </strong>
       </div>
-      <div class="panel-body">
+      <div class="panel-body table-container">
         <form method="post" action="add_sale.php">
          <table class="table table-bordered">
            <thead>

@@ -68,7 +68,7 @@
 </div>
 
   <div class="row">
-   <div class="col-md-12">
+   <div class="col-md-4 container-mobile">
      <div class="panel panel-default">
        <div class="panel-heading">
          <strong>
@@ -76,7 +76,7 @@
            <span>Productos más vendidos</span>
          </strong>
        </div>
-       <div class="panel-body">
+       <div class="panel-body table-container">
          <table class="table table-striped table-bordered table-condensed">
           <thead>
            <tr>
@@ -98,7 +98,7 @@
        </div>
      </div>
    </div>
-   <div class="col-md-12">
+   <div class="col-md-4 container-mobile">
       <div class="panel panel-default">
         <div class="panel-heading">
           <strong>
@@ -106,7 +106,7 @@
             <span>ÚLTIMAS VENTAS</span>
           </strong>
         </div>
-        <div class="panel-body">
+        <div class="panel-body table-container">
           <table class="table table-striped table-bordered table-condensed">
        <thead>
          <tr>
@@ -135,7 +135,7 @@
     </div>
    </div>
   </div>
-  <div class="col-md-12">
+  <div class="col-md-4 container-mobile">
     <div class="panel panel-default">
       <div class="panel-heading">
         <strong>
@@ -143,7 +143,7 @@
           <span>Productos recientemente añadidos</span>
         </strong>
       </div>
-      <div class="panel-body">
+      <div class="panel-body table-container">
 
         <div class="list-group">
       <?php foreach ($recent_products as  $recent_product): ?>

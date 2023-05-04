@@ -51,7 +51,7 @@ if(!$sale){
 </div>
 <div class="row">
 
-  <div class="col-md-12">
+  <div class="col-md-12 container-mobile">
   <div class="panel">
     <div class="panel-heading clearfix">
       <strong>
@@ -62,7 +62,7 @@ if(!$sale){
        <a href="sales.php" class="btn btn-primary">Show all sales</a>
      </div>
     </div>
-    <div class="panel-body">
+    <div class="panel-body table-container">
        <table class="table table-bordered">
          <thead>
           <th> Product title </th>
